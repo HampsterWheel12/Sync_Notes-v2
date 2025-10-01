@@ -1,0 +1,11 @@
+#!/bin/zsh
+# This script creates relevant directories following a naming schema
+
+echo 'creating level 1 directories'
+vared -p 'Course title: ' -c title
+vared -p 'Course code: ' -c code
+
+mkdir "Assess-$title-$code"
+
+mkdir "Tutorial-$title-$code"
+

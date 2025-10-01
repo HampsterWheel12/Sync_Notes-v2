@@ -1,0 +1,11 @@
+1) Addressing: use username and server IP adddress (name@ip)
+2) Location: name@ip:/path/to/directory
+3) Useful flags and arguments:
+	-rv (recursive, verbose)
+	--dry-run (shows what it would've copied and the size)
+4) Restoring: same command but reverse the input and output
+	name:ip:/path/to/directory/ olddirectory/
+	The / at the end tells the computer not to create a new directory
+5) Adding --delete will remove any files that aren't apart of the source (useful for renamed files)
+6) Adding -a flag will change the metadata
+7) remove-source-files is useful for transfering files like a mv command
